@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+.App {
+  display: flex;
+  height: 100vh;
+}
+.root-div {
+  display: flex;
+  width: 95%;
+  height: 90vh;
+  margin: auto;
+ 
+  box-shadow: 2px 2px 22px grey;
+}
+
+.options-div {
+  flex: 0.25;
+
+  padding: 14px;
+  background-color: #ededed;
+  border-right: 1px solid darkgrey;
+}
+.search-div {
+  flex: 0.75;
+  background-color: #f8f9fa;
+}
+
+.router-link {
+  text-decoration: none;
+  color: white;
+}
+
+.graph-header {
+  height: 50px;
+  border-bottom: 2px solid  #ededed ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ededed;
+}
+
+.graph-data{
+    margin-top:50px;
+    margin-left: 130px;
+}
+
+
+.recharts-cartesian-axis-ticks{
+    width: 500px;
+    padding: 0;
+}
+
+.graph-input{
+    text-align: center;
+    margin-top: 30px;
+}
+
+input[type="month"]{
+    margin-right: 25px;
+}
+
+label{
+    margin-right: 10px;
+}
+
+.btn-success{
+    margin-left: 50px;
+    width: 180px;
+}
+
+
